@@ -1457,85 +1457,6 @@
 		(uuid "315479f5-3010-4f49-9d3f-6c281ce69926")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 127 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33bf182c-2eb8-4f84-8c9e-3358c8d99816")
-		(property "Reference" "H2"
-			(at 129.54 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 129.54 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H3mm_9774030360"
-			(at 127 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 127 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57904b65-bfca-4580-a470-864e828888b9")
-		)
-		(instances
-			(project "hotglue-beetle-screw-switch"
-				(path "/a5772829-1b8d-4b4e-8b0b-2e15e61e5e93"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 160.02 114.3 180)
 		(unit 1)
@@ -2394,7 +2315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H3mm_9774030360"
+		(property "Footprint" "Trent-footprints:MP_Wurth_WP-SMBU_746600330"
 			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
@@ -2516,6 +2437,85 @@
 			(project "hotglue-beetle-screw-switch"
 				(path "/a5772829-1b8d-4b4e-8b0b-2e15e61e5e93"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 127 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf29895-bd03-44bb-bd4f-0fc4111b99e0")
+		(property "Reference" "H2"
+			(at 129.54 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 129.54 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Trent-footprints:MP_Wurth_WP-SMBU_746600330"
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "424f4395-e142-4f38-bb39-c947a03cc25a")
+		)
+		(instances
+			(project "hotglue-beetle-screw-switch"
+				(path "/a5772829-1b8d-4b4e-8b0b-2e15e61e5e93"
+					(reference "H2")
 					(unit 1)
 				)
 			)

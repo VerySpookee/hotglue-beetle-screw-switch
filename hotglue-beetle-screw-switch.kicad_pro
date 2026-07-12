@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "npth_inside_courtyard|106950000|96000000|18f9475f-c359-4188-b65c-5a7acaf00ac7|d27ad19c-fa43-4ccf-aa67-7a2bf5e34193",
-          "Screw standoff deliberately had no plated through hole to different net on reverse side. This allows screw to connect power."
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -547,7 +542,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
