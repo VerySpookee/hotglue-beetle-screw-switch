@@ -76,7 +76,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "npth_inside_courtyard|106000000|92000000|18f9475f-c359-4188-b65c-5a7acaf00ac7|d27ad19c-fa43-4ccf-aa67-7a2bf5e34193",
+          "This is deliberate since we are using the screw to bridge the top pad to the bottom pad via a NPTH"
+        ],
+        [
+          "solder_mask_bridge|106000000|92000000|18f9475f-c359-4188-b65c-5a7acaf00ac7|88550867-3ede-488b-8c88-661bd8d557bb",
+          "This is an error in how Wurth have defined the mask layer and I can't be bothered fixing their library."
+        ],
+        [
+          "solder_mask_bridge|122000000|92000000|fe8e5c08-a7fa-40cd-9a15-98c0d311db38|33c7f01f-8932-490b-a949-8ce048e0f2d1",
+          "This is an error in how Wurth have defined the mask layer and I can't be bothered fixing their library."
+        ]
+      ],
       "meta": {
         "version": 2
       },

@@ -1,5 +1,5 @@
 Drill report for hotglue-beetle-screw-switch.kicad_pcb
-Created on 2026-07-11T21:59:21
+Created on 2026-07-12T12:48:22
 
 Copper Layer Stackup:
     =============================================================
@@ -19,6 +19,6 @@ Drill file 'hotglue-beetle-screw-switch-PTH-drl.gbr' contains
 Drill file 'hotglue-beetle-screw-switch-NPTH-drl.gbr' contains
     unplated through holes:
     =============================================================
-    T1  4.400mm  0.1732"  (2 holes))
+    T1  4.200mm  0.1654"  (2 holes))
 
     Total unplated holes count 2
